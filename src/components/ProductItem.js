@@ -2,7 +2,7 @@ const ProductItem = (props) => {
   const product = props.product;
 
   return (
-    <div className="productWrapper">
+    <div className="productWrapper" onClick={() => props.Setcookie(product)}>
       <img alt={product.name} src={product.image} />
       <p>{product.name}</p>
       <p className="product-price">{product.price} KD</p>
@@ -11,3 +11,5 @@ const ProductItem = (props) => {
 };
 
 export default ProductItem;
+
+// onclick = {() => props.Setcookie(props)}
