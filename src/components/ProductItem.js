@@ -11,5 +11,3 @@ const ProductItem = (props) => {
 };
 
 export default ProductItem;
-
-// onclick = {() => props.Setcookie(props)}

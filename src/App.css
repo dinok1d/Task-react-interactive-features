@@ -7,6 +7,9 @@
   margin-right: auto;
   width: 50%;
 }
+.home button {
+  margin: 15px;
+}
 
 .searchBar {
   padding: 0.5rem;
@@ -32,7 +35,7 @@
   text-align: center;
 }
 .yellowform {
-  background-color: rgb(231, 144, 14);
+  background-color: rgba(206, 121, 107, 1);
   height: 400px;
   width: 400px;
   margin-top: 20px;
@@ -42,4 +45,30 @@
   display: block;
   margin-left: 20px;
   margin-right: 20px;
+}
+.titleform {
+  background-color: rgb(245, 180, 49);
+  text-align: center;
+  width: 150px;
+}
+.priceform {
+  background-color: rgba(52, 89, 149, 1);
+  text-align: center;
+  width: 150px;
+}
+.descform {
+  background-color: rgba(131, 197, 190, 1);
+  text-align: center;
+  width: 150px;
+}
+.center {
+  text-align: center;
+}
+.darktheme {
+  background-color: black;
+  color: white;
+}
+.lighttheme {
+  background-color: white;
+  color: black;
 }
